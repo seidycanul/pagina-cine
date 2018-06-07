@@ -1,0 +1,37 @@
+/** .algo  <-- es una clase ... se puede usar muchas veces */
+/** #algo  <-- es un id ... solo se puede usar en un id especifico*/
+
+.fondo {
+    background-color: rgb(76, 122, 107);
+}
+
+.sinopsis {
+    font-family:cursive;
+    align-content: left;
+}
+
+.titulo {
+    font-family:cursive;
+    font-size: 50px;
+    text-align: center;
+} 
+
+.subtitulo {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.bordeImg {
+    border: yellow 10px solid;
+}
+
+.sinopsis2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.tabla {
+    border: 1px solid negro;
+}
+
+
