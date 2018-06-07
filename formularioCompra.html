@@ -1,12 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Comprar</title>
+    <link rel="stylesheet" href="css/miestilo.css">
 </head>
-<body>
-    
+
+<body class="fondo">
+    <div class="topnav">
+        <ul>
+            <li>
+                <a href="proyecto.html" class="boton">Inicio</a>
+            </li>
+            <li>
+                <a href="informacion.html">Informacion</a>
+            </li>
+        </ul>
+    </div>
+
+    <div style="margin: 20px">
+        <span class="titulo" style="padding: 60px; color:lavender">Compra tus boletos ahora mismo!</span>
+    </div>
+
+    <table class="centrado">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="formCompra">
+                        <form method="post" style="padding: 20px">
+                            <span>Nombre</span>
+                            <input type="text" name="nombre">
+                            <br>
+                            <br>
+                            <span>Apellido</span>
+                            <input type="text" name="apellido">
+                            <br>
+                            <br>
+                            <span>Cantidad de boletos</span>
+                            <input type="number">
+                            <br>
+                            <br>
+                            <span>Fecha</span>
+                            <input type="date">
+                            <br>
+                            <br>
+                            <span>Hora</span>
+                            <input type="time">
+
+                            <br>
+                            <br>
+                            <button type="submit">Comprar</button>
+                        </form>
+                    </div>
+                </td>
+                <td>
+                    <img src="img/foto.jpg" style="width: 400px; padding: 20px; border-radius: 200px">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
 </body>
+
 </html>
