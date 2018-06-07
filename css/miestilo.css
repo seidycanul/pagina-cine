@@ -32,4 +32,8 @@
     border: 1px solid negro;
 }
 
-
+.boton {
+    background: blue;
+    color: white;
+    font-size: 30px;
+}
