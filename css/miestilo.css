@@ -93,3 +93,12 @@ ul {
 input {
     border-radius: 5px;
 }
+
+.fondo3 {
+    background-color: aquamarine;
+    text-align: left;
+}
+
+.parpadeo:hover {
+    border: tomato 10px solid;
+}
